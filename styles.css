@@ -1,0 +1,322 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Basic Layout */
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
+/* Hero Section */
+#home {
+    background: url('background.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    height: 100vh; /* Ensure it covers the full viewport */
+    display: flex; /* Use Flexbox to align items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    padding: 40px 20px;
+    border-radius: 10px; /* Rounded corners for the box */
+    max-width: 600px; /* Limit width to make it smaller */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4); /* Add a shadow for depth */
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #ffd700; /* Gold color for the heading */
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* Paragraph Styling */
+#home p {    
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #fff;
+}
+#home a:hover {
+    color: #ffa500; /* Lighter gold on hover */
+}
+
+/* Image Styling */
+#home img {
+    
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4); /* Add shadow to the image */
+}
+
+
+/* Skills Menu Section */
+#skills {
+    background: url('bme_k.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    height: 100vh; /* Ensure it covers the full viewport */
+    display: flex; /* Use Flexbox to align items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* Heading Styling */
+#skills h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffd700; /* Gold color for the heading */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for better readability */
+}
+
+/* Paragraph Styling */
+#skills p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+/* Link Styling */
+#skills a {
+    color: #ffd700; /* Gold links to match the heading */
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+#skills a:hover {
+    color: #ffa500; /* Lighter gold on hover */
+}
+
+/* Image Styling */
+#skills img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4); /* Add shadow to the image */
+}
+/*projektek*/
+#projects {
+    background: url('think.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    height: 100vh; /* Ensure it covers the full viewport */
+    display: flex; /* Use Flexbox to align items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/*Kontakt*/
+#contact {
+    background: url('phone.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    height: 100vh; /* Ensure it covers the full viewport */
+    display: flex; /* Use Flexbox to align items */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+
+/*bemutatkozó stilusa*/
+.intro {
+    max-width: 600px;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+    padding: 100px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.socials a {
+    color: #f0a500;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Existing CSS... */
+
+/* Basic layout for the navigation menu and hamburger */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Hide the hamburger on larger screens */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Styling for the hamburger menu icon */
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    transition: 0.3s ease;
+}
+
+/* Show the hamburger menu button on mobile screens */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        background: rgba(0, 0, 0, 0.9);
+        height: 100vh;
+        width: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%); /* Hidden by default */
+        transition: transform 0.3s ease-in;
+    }
+
+    /* Show the menu when the class 'nav-active' is added */
+    .nav-links.nav-active {
+        transform: translateX(0);
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+}
+
+/*randomuser*/
+#userImage {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/*link szine*/
+.link {color: black;
+    text-decoration: none;
+  
+}
+
+#nyil
+{
+    width: 150px;
+}
